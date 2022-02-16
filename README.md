@@ -2,7 +2,7 @@
 
 A automatic IPFS gateway checker, that gives you working gateway.
 
-Updated Every 18 Minutes.
+Auto Updated Every 1 hour.
 
 
 ### Gateway List
