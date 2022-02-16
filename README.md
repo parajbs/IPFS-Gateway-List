@@ -1,4 +1,4 @@
-# IPFS-Gateway-List
+# IPFS Gateway List
 A automatic IPFS gateway checker.
 
 
