@@ -12,7 +12,9 @@ function filecontenttoarray(file) {
 
 async function axioscall(url) {
 	return await axios
-		.get(url)
+		.get(url, {
+			timeout: 9000,
+		})
 		.then(function (response) {
 			return response.data;
 		})
