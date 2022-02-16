@@ -31,10 +31,10 @@ async function fetchTest() {
 			var checkIPFSr = await axioscall(gateway + checkData);
 
 			if (checkIPFSr.server) {
-				console.log(`OK : ${gateway}`);
+				console.log(`GOOD : ${gateway}`);
 				okgateways.push(gateway);
 			} else {
-				console.log(`OK : ${gateway}`);
+				console.log(`BAD : ${gateway}`);
 			}
 		} catch (error) {
 			console.log(error);
