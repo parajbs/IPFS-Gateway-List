@@ -1,5 +1,8 @@
 # IPFS Gateway List
-A automatic IPFS gateway checker.
+
+A automatic IPFS gateway checker, that gives you working gateway.
+
+Updated Every 18 Minutes.
 
 
 ### Gateway List
