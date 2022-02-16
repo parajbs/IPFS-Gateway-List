@@ -1,0 +1,5 @@
+https://ipfs.io/ipfs/
+https://ipfs.infura.io/ipfs/
+https://ipfs.yt/ipfs/
+https://ipfs.eternum.io/ipfs/
+https://gateway.pinata.cloud/ipfs/
