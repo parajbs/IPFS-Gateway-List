@@ -50,5 +50,5 @@ async function fetchTest() {
 
 	var random = okgateways[Math.floor(Math.random() * okgateways.length)];
 
-	fs.writeFileSync('./dist/random.json', JSON.stringify(random));
+	fs.writeFileSync('./dist/random.json', JSON.stringify([random]));
 })();
