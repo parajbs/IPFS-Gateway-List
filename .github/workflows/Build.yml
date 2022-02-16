@@ -10,12 +10,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Init
-        run: |
-         sudo apt-get update -y 
-         sudo apt install git -y
-
-      - name: Install
+      - name: Build
         run: |
           npm i
           npm run build
