@@ -17,11 +17,8 @@ jobs:
           npm i
           npm run build
           
-      - name: Upload IPFS
-        env:
-         IPFS_DEPLOY_CLOUDFLARE__API_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
-         IPFS_DEPLOY_CLOUDFLARE__ZONE: besoeasy.com
-         IPFS_DEPLOY_CLOUDFLARE__RECORD: _dnslink.ipfs.besoeasy.com
-
-        run: |
-          npx ipfs-deploy -d cloudflare ./dist
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        with:
+          branch: gh-pages 
+          folder: dist
