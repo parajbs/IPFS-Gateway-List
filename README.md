@@ -1,13 +1,12 @@
 # IPFS Gateway List
 
-A automatic IPFS gateway checker, that gives you working gateway.
+A automatic IPFS gateway checker, it checks all the gateways every hour and loads the best ones to the list.
 
-Auto Updated Every 1 hour.
-
+You can integrate these gateways using path below. 
 
 ### Gateway List
-https://ipfs.besoeasy.com/list.json
+https://raw.githubusercontent.com/besoeasy/IPFS-Gateway-List/gh-pages/list.json
 
 
 ### Random Gateway
-https://ipfs.besoeasy.com/random.json
+https://raw.githubusercontent.com/besoeasy/IPFS-Gateway-List/gh-pages/random.json
