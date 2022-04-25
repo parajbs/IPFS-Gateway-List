@@ -24,3 +24,5 @@ https://ipfs.adatools.io/ipfs/
 https://storry.tv/ipfs/
 https://ipfs.overpi.com/ipfs/
 https://ninetailed.ninja/ipfs/
+https://3cloud.ee/ipfs/
+https://dweb.eu.org/ipfs/
