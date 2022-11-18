@@ -6,5 +6,5 @@ You can integrate these gateways using path below.
 ## Gateway List
 
 ```
-https://raw.githubusercontent.com/besoeasy/IPFS-Gateway-List/gh-pages/list.json
+https://raw.githubusercontent.com/besoeasy/IPFS-Gateway-List/dist/list.json
 ```
